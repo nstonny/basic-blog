@@ -25,3 +25,34 @@ h1 {
 .post p {
     margin: 10px 0;
 }
+
+.delete-btn {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #FFF;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+    color: #FFF;
+}
+
+.update-btn {
+    display: inline-block;
+    background-color: #4F4F4F;
+    color: #FFF;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.update-btn:hover {
+    background-color: #333;
+    color: #FFF;
+}

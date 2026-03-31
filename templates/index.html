@@ -14,6 +14,8 @@
         <h2>{{post.title}}</h2>
         <p><em>{{post.author}}</em></p>
         <p>{{post.content}}</p>
+        <a href="/update/{{ post.id }}" class="update-btn">Update</a>
+        <a href="/delete/{{ post.id }}" class="delete-btn">Delete</a>
     </div>
     {% endfor %}
 </body>
